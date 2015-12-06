@@ -1,6 +1,6 @@
 from datetime import datetime, timezone, timedelta
 import re
-
+# 输入一个时间和时区，获得timestamp
 def to_timestamp(dt_str, tz_str):
     #string to time
     t = datetime.strptime(dt_str, '%Y-%m-%d %H:%M:%S')
